@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="25dp"
+        android:text="Microsoft Teams"
+        android:textAlignment="center"
+        android:textColor="#606895"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/q1img"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Get started with your work,school or"
+        android:textAlignment="center"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="personal Microsoft account"
+        android:textAlignment="center"
+        android:textSize="20dp"></TextView>
+
+    <EditText
+        android:layout_width="287dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edtbackground"
+        android:text="Enter email,phone,or Skype"
+        android:textAlignment="center"
+        android:textColor="#747474"
+        android:textStyle="normal"></EditText>
+
+    <Button
+        android:layout_width="287dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btnbackground1"
+        android:text="sign in"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/material_motion_duration_long_1">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get help with signing in"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textColor="#606895"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+
+
+    <Button
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:text="Join a meeeting"
+        android:textColor="#606895"
+        android:layout_gravity="center"
+        android:background="@drawable/btnbackground"
+        android:layout_marginTop="10dp"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:text="sign up for free"
+        android:textColor="#606895"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnbackground">
+
+    </Button>
+
+
+</LinearLayout>

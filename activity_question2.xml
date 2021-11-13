@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question2"
+    android:orientation="vertical"
+    android:background="#8AFFC107"
+    >
+
+    <EditText
+
+        android:layout_width="346dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/edittxt"
+        android:hint="Enter The Text "
+        android:textColorHint="#DD0D0D"
+        android:textAlignment="center">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/edittxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#050505"
+        android:text="press here"
+        android:textColor="#EA0909"
+        android:textSize="20dp">
+    </Button>
+    <RadioButton
+        android:id="@id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="radiobutton"
+        android:textSize="20dp"
+        android:textColor="#E80F0F"
+        >
+
+    </RadioButton>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="checkbox"
+        android:textSize="20dp"
+        android:textColor="#E80D0D">
+    </CheckBox>
+
+
+
+</RelativeLayout>
